@@ -1,0 +1,102 @@
+/*universal selactor*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: ;
+}
+/* id selector# */
+body{
+    background-image: url(../img/browen_torn_paper_on_transparent_background_bright_checkered_decor_6924409.jpg);
+}
+#full-box{
+background-color: aqua;
+color: rgb(3, 3, 30);
+width: 50%;
+margin: 10% auto;
+padding: 30px;
+text-align: center;
+}
+input , #label{
+display: block;
+}
+#full-box h1{
+font-size: 40px;
+text-transform: uppercase;
+}
+#full-box h1::after {
+content: " ";
+display: block;
+border-top: 2px solid black;
+margin: 20px 0px;
+
+}
+h4{
+font-size: 30px;
+}
+label{
+    background-color:;
+    width:;
+font-size:20px ;
+text-transform: uppercase;
+margin: 10px;
+}
+input{
+width: 100%;
+padding: 10px;
+margin: 0px;
+color: blue;
+}
+#agre{
+    display: block;
+}
+#select{
+
+}
+#female{
+    display: block;
+}
+#select option{
+    width: 20px;
+}
+option{
+color: black;
+}
+input[type="submit"]{
+background-color: black;
+color: aliceblue;
+margin: 20px auto;
+width: 90%;
+text-transform: uppercase;
+font-size: 13px;
+border: 2px solid black;
+transition:ease-in-out 0.5s ;
+}
+input[type="submit"]:hover{
+background-color:transparent;
+color: black;
+font-weight: bolder;
+}
+input[type="radio"]{
+    display: inline
+    width: ;
+    margin: 10px;
+}
+
+/*[.] class selector*/
+.p{
+font-size: 20px;
+margin: 10px;
+background-color: beige;
+}
+.p a{
+   background-color: rgb(255, 255, 255); 
+   color: blue;
+   text-transform: capitalize;
+   padding: ;
+}
+.p a :hover{
+background-color: black;
+transition: ease-in-out 0.4s;
+color: aliceblue;
+}
